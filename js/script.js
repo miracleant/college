@@ -17,11 +17,31 @@
             }
  }
 
+/*register.html js控制*/
+/**
+ * 处理提交注册的操作
+ */
+function registerSubmit(){
+    var request=new XMLHttpRequest();
+    request.open('GET'," ");
+    request.send();
+    request.onreadystatechange=function(){
+        if(request.readyState===4){
+            if(request.status===200){
+
+            }else {
+                alert('something error!')
+            }
+        }
+    }
+    alert("submit successful");
+}
+
 /*login.html js控制*/
 /**
  * 处理登录操作
  */
-document.getElementById("login-submit").onclick=function(){
+function loginSubmit(){
     var request=new XMLHttpRequest();
     request.open('GET'," ");
     request.send();
@@ -40,28 +60,9 @@ document.getElementById("login-submit").onclick=function(){
 /**
  * 点击注册，跳转到注册页面
  */
-document.getElementById("login-regist").onclick=function(){
+function skipRegister(){
     document.location.assign("register.html")
     /*window.location.href="register.html";*/
 }
 
 
-/*register.html js控制*/
-/**
- * 处理提交注册的操作
- */
-document.getElementById('regist-submit').onclick=function(){
-    var request=new XMLHttpRequest();
-    request.open('GET'," ");
-    request.send();
-    request.onreadystatechange=function(){
-        if(request.readyState===4){
-            if(request.status===200){
-
-            }else {
-                alert('something error!')
-            }
-        }
-    }
-    alert("submit successful");
-}
