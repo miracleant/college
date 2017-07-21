@@ -3,13 +3,25 @@
     <head>
         <title>登录</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
-        <script type="text/javascript" src="../js/script.js"></script>
     </head>
     <body>
-        <div id="login">
-            <div id="user-login">用户登录</div>
-            <label id="username" for="username" required>帐号:<input type="text"></label>
-            <label id="password" for="password" required>密码:<input type="password"></label>
+        <div id="login-register">
+            <center>
+            <div id="label-title">用户登录</div>
+            <label id="username" for="username" required>帐号: <input type="text"></label>
+            <label id="password" for="password" required>密码: <input type="password"></label>
+            <button id="login-submit">提交</button>
+            <button id="login-regist">注册</button>
+            </center>
         </div>
+        <script>
+            window.onload=function () {
+                document.getElementsByTagName('body')[0].style.height = window.innerHeight+'px';
+                document.getElementsByTagName('body')[0].style.width = window.innerWidth+'px';
+                console.log(window.innerHeight+'px');
+                console.log(window.innerWidth+'px');
+            }
+        </script>
+        <script type="text/javascript" src="../js/script.js" defer></script>
     </body>
 </html>

@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>登录</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <script type="text/javascript" src="../js/script.js"></script>
-</head>
-<body>
-<div id="login">
-    <div id="user-regit">用户注册</div>
-    <label id="username" for="username" required>帐号:<input type="text" name="username"></label>
-    <label id="password1" for="password1" required>密码:<input type="password" name="password1"></label>
-    <label id="password2" for="password2" required>密码:<input type="password" name="password2"></label>
-    <label id="usernumber" for="usernumber">手机:<input type="tel"></label>
-    <label id="useremail" for="useremail" required>邮箱:<input type="email" name="useremail"></label>
-    <button id="regist-submit" type="submit">提交</button>
-    <button id="regit-reset" type="reset">重置</button>
-</div>
+    <head>
+        <title>登录</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+    <body>
+    <div id="login-register">
+        <center>
+            <form>
+                <div id="label-title">用户注册</div>
+                <label id="username" for="username" required>帐号: <input type="text" name="username"></label>
+                <label id="password1" for="password1" required>密码: <input type="password" name="password1"></label>
+                <label id="password2" for="password2" required>密码: <input type="password" name="password2"></label>
+                <label id="usernumber" for="usernumber">手机: <input type="tel"></label>
+                <label id="useremail" for="useremail" required>邮箱: <input type="email" name="useremail"></label>
+                <button id="regist-submit">提交</button>
+                <button id="regit-reset" type="reset" value="reset">重置</button>
+                <!--<button id="regit-reset" type="cancel" value="reset">取消</button>-->
+            </form>
+        </center>
+        <script type="text/javascript" src="../js/script.js" defer></script>
+    </div>
 </body>
 </html>

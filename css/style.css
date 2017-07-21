@@ -2,7 +2,9 @@ html{
     padding:0px;
     margin:0px;
 }
-
+body{
+    background: url('../images/html_bg.png') repeat;
+}
 
 
 /*导航栏通用设置*/
@@ -49,8 +51,37 @@ header>span{
     border-bottom-right-radius: 15px;
 }
 
-#login_register{
+#header-login-register{
     float: right;
+}
+#header-login-register a{
+    text-decoration: none;
+    color: blue;
+    font-family: "楷体";
+}
+
+#login-register{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+}
+#label-title{
+    font-size: 20px;
+    font-family: "楷体";
+    color: red;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#login-register label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#login-register button{
+    margin: 0px 15px;
 }
 
 /*navgation.html 样式设置*/
