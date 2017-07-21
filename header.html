@@ -9,10 +9,19 @@
         <span>My Will</span>
         <form>
             <div class="form-search">
-                <input type="text" class="searchInput" />
+                <input type="search" class="searchInput" />
                 <button type="submit" class="searchButton">搜索</button>
             </div>
         </form>
+        <!-- 此处由于用的是frame 所以用这招层实现比较麻烦
+        <div id="login_register">
+            <a href="javascript:login(this)">登录</a>
+            <a href="javascript:register(this)">注册</a>
+        </div>
+        -->
+        <div id="login_register">
+            <span><a href="source/login.html" target="_parent">登录</a>|<a href="source/register.html" target="_parent">注册</a></span>
+        </div>
     </header>
 
 </body>

@@ -1,4 +1,8 @@
 /* navgation.html js控制*/
+/**
+ * 左边导航栏，显示专业列表下面的子选项
+ * @param list
+ */
  function showlist(list) {
             try{
                if(document.getElementById('majorInstruct').style.display!= "block"){
@@ -11,5 +15,4 @@
             }catch (e){
                 console.log(e);
             }
-
         }

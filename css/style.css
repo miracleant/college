@@ -4,9 +4,10 @@ html{
 }
 
 
+
 /*导航栏通用设置*/
 header{
-    background-color:dimgray;
+    /*background-color:dimgray;*/
     width: 1000px;
     height: 150px;
     margin: auto;
@@ -14,7 +15,7 @@ header{
     top:5px;
 }
 
-header span{
+header>span{
     margin: 5px;
     padding: 10px;
     font-size: 20px;
@@ -33,7 +34,6 @@ header span{
     height: 30px;
 }
 
-
 .searchInput{
     height: 30px;
     width: 170px;
@@ -49,11 +49,14 @@ header span{
     border-bottom-right-radius: 15px;
 }
 
-
+#login_register{
+    float: right;
+}
 
 /*navgation.html 样式设置*/
-ol>li{
-    text-decoration-style: none;
+.nav-major a{
+    text-decoration: none;
+    color: black;
 }
 
 #majorInstruct{
