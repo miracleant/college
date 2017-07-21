@@ -1,0 +1,62 @@
+html{
+    padding:0px;
+    margin:0px;
+}
+
+
+/*导航栏通用设置*/
+header{
+    background-color:dimgray;
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    position:relative;
+    top:5px;
+}
+
+header span{
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: firebrick;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.form-search{
+    border: transparent;
+    position: absolute;
+    left: 400px;
+    top: 60px;
+    width: 230px;
+    height: 30px;
+}
+
+
+.searchInput{
+    height: 30px;
+    width: 170px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.searchButton{
+    margin-left: -5px;
+    height: 30px;
+    width: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+/*navgation.html 样式设置*/
+ol>li{
+    text-decoration-style: none;
+}
+
+#majorInstruct{
+    display: none;
+}
+
